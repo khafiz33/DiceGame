@@ -114,6 +114,9 @@ main {
   cursor: pointer;
   font-weight: 400;
   transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   background-color: white;
   background-color: rgba(255, 255, 255, 0.6);
@@ -188,38 +191,50 @@ a:hover {
 
 /* media 768px */
 @media only screen and (max-width: 768px) {
+  main {
+    height: 35rem;
+  }  
+
   .player {
-    padding: 6rem;
+    padding: 2rem;
   }
 
   .name {
-    font-size: 3rem;
-    margin-bottom: 0.8rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
   }
 
   .current {
-    width: 55%;
+    width: 50%;
     padding: 1rem;
   }
   
   .current-label {
-    margin-bottom: 0.8rem;
-    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
   }
   
   .current-score {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .score {
-    font-size: 7rem;
+    font-size: 5rem;
   }
 
   .btn {
-    font-size: 1.5rem;
-    padding: 0.6rem 2rem;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
     border-radius: 50rem;
     box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+  }
+
+  .btn--roll {
+    top: 18.3rem;
+  }
+  
+  .btn--hold {
+    top: 23.1rem;
   }
 
   .mine {
