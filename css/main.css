@@ -192,8 +192,14 @@ a:hover {
 /* media 768px */
 @media only screen and (max-width: 768px) {
   main {
+    width: 60rem;
     height: 35rem;
   }  
+
+  .dice {
+    height: 6rem;
+    top: 9.5rem;
+  }
 
   .player {
     padding: 2rem;
