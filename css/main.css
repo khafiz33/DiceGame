@@ -192,7 +192,7 @@ a:hover {
 /* media 768px */
 @media only screen and (max-width: 768px) {
   main {
-    width: 60rem;
+    width: 35rem;
     height: 35rem;
   }  
 
