@@ -20,6 +20,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  user-select: none;
 }
 
 /* LAYOUT */
@@ -183,4 +184,45 @@ a {
 
 a:hover {
   color: #222;
+}
+
+/* media 768px */
+@media only screen and (max-width: 768px) {
+  .player {
+    padding: 6rem;
+  }
+
+  .name {
+    font-size: 3rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .current {
+    width: 55%;
+    padding: 1rem;
+  }
+  
+  .current-label {
+    margin-bottom: 0.8rem;
+    font-size: 1.5rem;
+  }
+  
+  .current-score {
+    font-size: 3rem;
+  }
+
+  .score {
+    font-size: 7rem;
+  }
+
+  .btn {
+    font-size: 1.5rem;
+    padding: 0.6rem 2rem;
+    border-radius: 50rem;
+    box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+  }
+
+  .mine {
+    font-size: 20px;
+  }
 }
